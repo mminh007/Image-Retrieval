@@ -1,0 +1,4 @@
+selenium
+tqdm
+chromium-browser
+chromium-chromedriver
