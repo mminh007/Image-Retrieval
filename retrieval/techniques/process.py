@@ -46,7 +46,8 @@ def folder_to_images(folder, size):
 
     images_path = np.array(images_path)
     return images_np, images_path                         
-                    
+
+
 embedding_function = OpenCLIPEmbeddingFunction()
 
 def get_single_image_embedding(image):
