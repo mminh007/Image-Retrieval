@@ -44,7 +44,7 @@ def main():
                           max_workers = args.max_workers)
     
     image_urls = scraper.scrape_urls(categories=categories)
-    scraper.save_to_file(image_urls, "args.saved_filename")
+    scraper.save_to_file(image_urls, args.saved_filename)
 
 
 if __name__ == "__main__":
